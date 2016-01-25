@@ -36,5 +36,11 @@ namespace InClassDemoTwo
             myFirstLabel.Text = string.Empty;
             clicks = 0;
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Goodbye!");
+            this.Close();
+        }
     }
 }

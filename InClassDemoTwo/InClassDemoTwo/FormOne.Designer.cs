@@ -31,6 +31,7 @@
             this.btnClickCounter = new System.Windows.Forms.Button();
             this.myFirstLabel = new System.Windows.Forms.Label();
             this.picboxFirstPicture = new System.Windows.Forms.PictureBox();
+            this.btnExit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picboxFirstPicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,11 +68,22 @@
             this.picboxFirstPicture.Visible = false;
             this.picboxFirstPicture.Click += new System.EventHandler(this.picboxFirstPicture_Click);
             // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(471, 409);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(179, 81);
+            this.btnExit.TabIndex = 3;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // FormOne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(703, 555);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.picboxFirstPicture);
             this.Controls.Add(this.myFirstLabel);
             this.Controls.Add(this.btnClickCounter);
@@ -90,6 +102,7 @@
         private System.Windows.Forms.Button btnClickCounter;
         private System.Windows.Forms.Label myFirstLabel;
         private System.Windows.Forms.PictureBox picboxFirstPicture;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 
